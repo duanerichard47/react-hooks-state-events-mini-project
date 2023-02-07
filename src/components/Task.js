@@ -1,6 +1,11 @@
 import React from "react";
 
-function Task() {
+function Task({tasks}) {
+
+tasks.map(task) => {
+  return
+  < div  key={task.text} text={task.text} category={task.category} ></div>/> })
+
   return (
     <div className="task">
       <div className="label">CATEGORY HERE</div>
